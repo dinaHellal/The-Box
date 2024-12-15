@@ -200,3 +200,28 @@ header nav ul li a {
   background-color: var(--white);
   color: var(--main-color);
 }
+
+.services .cards {
+  gap: 100px;
+}
+.services .card {
+  padding: 20px;
+  border: none;
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 0.1);
+}
+.services .card:nth-child(even) {
+  background-color: var(--main-color);
+}
+.services .card img {
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+.services .card:nth-child(even) img {
+  border-bottom-color: var(--white);
+}
+.services .card h3 {
+  color: var(--main-color);
+}
+.services .card:nth-child(even) h3 {
+  color: var(--white);
+}
