@@ -44,7 +44,7 @@ ul {
   font-size: var(--h2-size);
 }
 .description {
-  padding: 10px 0;
+  padding: 15px 0;
   color: var(--text-color);
   line-height: 1.5;
 }
@@ -200,7 +200,9 @@ header nav ul li a {
   background-color: var(--white);
   color: var(--main-color);
 }
-
+.services{
+  padding: var(--section-padding);
+}
 .services .cards {
   gap: 100px;
 }
@@ -224,4 +226,15 @@ header nav ul li a {
 }
 .services .card:nth-child(even) h3 {
   color: var(--white);
+}
+.statistics img{
+  width: 100%;
+}
+.statistics .container{
+  gap: 70px;
+}
+.statistics h2{
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: var(--h2-size);
 }
