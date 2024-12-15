@@ -175,6 +175,9 @@ header nav ul li a {
 .about {
   position: relative;
 }
+.about img{
+  width: 100%;
+}
 .about-info {
   background-color: var(--main-color);
   color: var(--white);
