@@ -286,3 +286,45 @@ h4
   font-weight: bold;
   font-size: 30px;
 }
+.contact{
+  position: relative;
+  padding: var(--section-padding);
+}
+.contact h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact p{
+  font-size: var(--alt-text-size);
+}
+.contact form input , textarea{
+  padding: 8px;
+  background-color: var(--white);
+  border: 1px solid rgb(0 0 0 / 0.1);
+  outline: none;
+  margin: 15px;
+  width: 250px;
+}
+textarea{
+  width: 522px;
+  height: 100px;
+}
+@media (max-width:991px) {
+  textarea{
+    width: 100%;
+}
+  .contact form .btn{
+    position: absolute;
+right: 500px;
+  }
+  }
+.contact form label{
+align-items: start;
+}
+.contact form .submit-btn{
+  background-color: var(--main-color);
+  color: var(--white);
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
