@@ -260,3 +260,29 @@ padding: 20px;
   background-color: rgb(0 0 0 / 0.1);
   border: 2px solid var(--white);
 }
+.projects{
+  padding: var(--section-padding);
+  
+}
+.projects .col{
+  gap: 40px;
+}
+.project-card {
+  background-color: var(--main-color);
+width: 230px;
+}
+.projects .project-card img{
+  width: 100%;
+  padding: 0px;
+}
+.projects .project-card h3 ,
+.projects .project-card p{
+  color: var(--white);
+  padding: 10px;
+}
+h4
+{
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 30px;
+}
