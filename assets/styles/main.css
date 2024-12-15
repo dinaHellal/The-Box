@@ -227,6 +227,9 @@ header nav ul li a {
 .services .card:nth-child(even) h3 {
   color: var(--white);
 }
+.statistics{
+  padding: var(--section-padding);
+}
 .statistics img{
   width: 100%;
 }
@@ -237,4 +240,23 @@ header nav ul li a {
   color: var(--main-color);
   font-weight: bold;
   font-size: var(--h2-size);
+}
+.consultation{
+  background-image: url(../images/image-2\ \(1\).webp);
+  background-position: center;
+  background-size: cover;
+background-attachment: fixed;
+color: var(--white);
+padding: 20px;
+}
+.consultation .container{
+  gap: 110px;
+  padding: 20px;
+}
+.consultation p{
+  color: var(--white);
+}
+.consultation a{
+  background-color: rgb(0 0 0 / 0.1);
+  border: 2px solid var(--white);
 }
